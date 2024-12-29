@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pixelify+Sans:wght@400..700&display=swap');
+
+/*  ---------------  VARIABLES   ---------------*/
+
+:root {
+    --violetaOscuro: #8C0375;
+    --violetaClaro: #C004D9;
+    --violetaAzul: #9303A6;
+    --azulClaro: #5D04D9;
+    --azulOscuro: #03318C;
+    --blanco: #FFFFFF;
+}
+
+/*  ---------------  GLOBALES  ---------------*/
+
+*{
+    font-family: "Pixelify Sans", serif;
+}
+body{
+    margin: 0%;
+}
+
+/*  ---------------  NAVEGACIÓN  ---------------*/
+
+nav{
+    background-color: var(--azulClaro);
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+/*  ---------------  FOOTER  ---------------*/
+
+footer{
+    background-color: var(--azulClaro);
+    color: var(--blanco);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+.footer-logo{
+    width: min-content;
+}
+.footer-desarrollado-link{
+    color: var(--blanco);
+}
+
+/*  ---------------  HOME  ---------------*/
+
+.contenedor-principal{
+    display: flex;
+}
+
+.productos{
+    border: 3px solid green;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}.productos-titulo{
+    font-size: 2rem;
+    font-weight: bold;
+}.productos-lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid violet;
+    width: 80%;
+}
+
+.formulario{
+    border: 3px solid yellow;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}.formulario-titulo{
+    font-size: 2rem;
+    font-weight: bold;
+}.formulario-campos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid violet;
+    width: 80%;
+}
